@@ -1,0 +1,5 @@
+number1=(input)("age")
+nbr2=(input)("name")
+nbr3=(input)("surname")
+nbr4=(input)("country")
+print("number1 + number2 + number3 +number4 ")
