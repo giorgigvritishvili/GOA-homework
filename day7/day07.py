@@ -1,5 +1,5 @@
-number1=(input)("age")
-nbr2=(input)("name")
-nbr3=(input)("surname")
-nbr4=(input)("country")
-print("number1 + number2 + number3 +number4 ")
+number1=int(input("პირბელი ნიშანი"))
+nbr3=int(input("მესამე ნიშანი"))
+nbr4=int(input("მეოთხე ნიშანი"))
+sum= number1 +  + nbr3 + nbr4
+arithmetic_average= sum /5

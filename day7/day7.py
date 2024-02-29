@@ -5,8 +5,8 @@ street="qetevan wamebulis street 13"
 father_name="tamazii"   #მამის სახელი
 mother_name="nino"    #დედის სახელი
 country="georgia"
-input=(9//3)
-input=(200/10)
+input=(9//3)     #დაზუსტებული გაყოფა
+input=(200/10)       #გაყოფა
 print(type(name))
 print(type(age))
 print(type(surname))
