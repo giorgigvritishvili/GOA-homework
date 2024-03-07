@@ -1,11 +1,4 @@
-my_age="12"
-mother_age="42"
-father_age="43"
-score="22"
-goal="10"
-print(43>42)
-print(42>43)
-print(12>42)
-print(12>10)
-print(10<12)
-print(22>12)
+my_age=int(input("რამდენი წლის ხარ?: "))
+user_age=int(input("რამდენი წლის არიან შენი მშონლები"))
+bulion=my_age>user_age
+print(bulion)
