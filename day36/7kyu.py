@@ -7,4 +7,5 @@ def dont_give_me_five(start,end):
     return count
 
 
-
+for i in range(chuci"):
+    print("chuci" )
