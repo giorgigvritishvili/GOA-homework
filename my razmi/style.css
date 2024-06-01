@@ -1,0 +1,61 @@
+    
+    body{
+
+        background-color: aquamarine;
+    }
+    
+    
+    
+    .p-1 {
+
+
+
+
+    color: red;
+    padding: 30px;
+}
+
+
+.p-2{
+    padding-left: 100px;
+}
+.p-3{
+    background-color: greenyellow;
+
+    border: black 5px solid;
+}
+
+.p-5{
+    background-color: aqua;
+
+    border: black 5 px solid;
+}
+
+.p-7{
+background-color: bisque;
+    border: black 7 px solid;
+}
+
+.class-2{
+    border: black 5px solid;
+}
+
+
+
+
+.class-4{
+border: black 5px solid;
+}
+
+
+
+.class-1{
+    border:rgb(137, 42, 42) 5px solid;
+}
+
+
+.class-11{
+    color: blanchedalmond;
+    background-color: brown;
+    font: 1em sans-serif;
+}
