@@ -1,0 +1,25 @@
+.box{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+    border-radius: 10px;
+  animation: movebx 2s ease-in-out infinite alternate;
+  position: absolute;
+
+}
+@keyframes movebx {
+    0%{
+    transform: translateX(0);
+    }
+    50%{
+       transform: translateX(200px);
+       background-color: green;
+    }
+
+    100%{
+        transform: translateX(0);
+
+        
+    }
+}
