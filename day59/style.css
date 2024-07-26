@@ -1,0 +1,31 @@
+.parent{
+    width: 1200px;
+    height: 200px;
+    display: grid;
+    grid-template-columns:  2fr 2 fr 2fr 2fr;
+    background-color: greenyellow;
+    gap: grid;
+    padding: 20px;
+    justify-self: flex-end;
+    border-radius: 30px;
+}
+
+.child{
+    background-color: blue;
+    gap: 5px;;
+    justify-items: auto;
+    background-size: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    background-position: auto;
+}
+
+parent:hover{
+    box-shadow: 2px 2px 2px 2px;
+    background-color: aqua;
+}
+
+.chiald{
+    display: flex;
+    margin-top: 500px;
+}
