@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form-group {
     margin-bottom: 15px;
     text-align: left;
@@ -32,4 +33,40 @@ button:hover{
     background-color: aqua;
     border-radius: 30px;
     color: blue;
+=======
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button:hover{
+    background-color: aqua;
+    border-radius: 30px;
+    color: blue;
+>>>>>>> fb0eba0a7454f2dc3b511a76a20cf9f2ec4ee15a
 }

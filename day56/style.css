@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .parent{
     display: flex; 
     height: 300px; 
@@ -33,4 +34,41 @@
     background-image:url('./me.png') ;
     width: 400px;
     height: 200px;
+=======
+.parent{
+    display: flex; 
+    height: 300px; 
+    border: 3px solid #ccc; 
+    border-radius: 20px;
+  
+   
+    justify-content: space-between;
+    align-items: center; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    align-content: space-around; 
+   
+}
+
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 30px;
+    box-sizing: 2px 2px 2px 2px;
+    gap: 2px;
+    
+}
+
+
+
+.chiald{
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    background-image:url('./me.png') ;
+    width: 400px;
+    height: 200px;
+>>>>>>> fb0eba0a7454f2dc3b511a76a20cf9f2ec4ee15a
 }

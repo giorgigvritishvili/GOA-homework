@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 body{
     display: flex;
    justify-content: center;
    align-items: center;
    color: brown;
+=======
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: brown;
+>>>>>>> fb0eba0a7454f2dc3b511a76a20cf9f2ec4ee15a
 }

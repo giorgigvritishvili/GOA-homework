@@ -1,0 +1,48 @@
+.button{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    color: blue;
+    border-radius: 10px;
+    border: 3px solder;
+    box-shadow: 1px 3px 1px 4px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 2rem;
+
+}
+
+.button:hover{
+    width: 100px;
+    animation: 0.6s;
+   font-size: 2rem;
+   background-color: blue;
+   color: aquamarine;
+   display: grid;
+   text-transform: none;
+   text-align: justify;
+}
+
+.btn1{
+display: flex;
+transform: translateX(00.6s);
+background-color: green;
+color: aqua;
+padding: 20px;
+box-shadow: 1 px 1px 1px 1px;
+justify-content: center;
+align-items: center;
+}
+
+.btn1:hover{
+    font-display: calc();
+    font-size: 2rem;
+    transition: none;
+    transform: matrix3d(display);
+    color: aqua;
+    direction: ltr;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

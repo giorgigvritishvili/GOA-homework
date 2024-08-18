@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <button type="submit">Submit</button>
+    </form>
+
+    <script >
+        
+const formDataArray = [];
+function handleSubmit(event) {
+    event.preventDefault();
+    const firstName = document.getElementById('firstName').value.trim();
+    const lastName = document.getElementById('lastName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    if (firstName === '' || lastName === '' || email === '') {
+        alert('All fields are required.');
+        return;
+    }
+    const formData = {
+        firstName: firstName,
+        lastName: lastName,
+        email: email
+    };
+    formDataArray.push(formData);
+    document.getElementById('registrationForm').reset();
+    console.log(formDataArray);
+}
+document.getElementById('registrationForm').addEventListener('submit', handleSubmit);
+
+
+    </script>
+</body>
+</html>
