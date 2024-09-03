@@ -3,48 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Age Check</title>
+    <script>
+        function checkAge() {
+            var age = document.getElementById('ageInput').value;
+            age = Number(age);
+
+            if (isNaN(age)) {
+                alert("Please enter a valid number.");
+            } else if (age < 18) {
+                alert("You are too young");
+            } else {
+                alert("You have registered with website");
+            }
+        }
+    </script>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <form id="registrationForm">
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName" required>
-        
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <button type="submit">Submit</button>
-    </form>
-
-    <script >
-        
-const formDataArray = [];
-function handleSubmit(event) {
-    event.preventDefault();
-    const firstName = document.getElementById('firstName').value.trim();
-    const lastName = document.getElementById('lastName').value.trim();
-    const email = document.getElementById('email').value.trim();
-    if (firstName === '' || lastName === '' || email === '') {
-        alert('All fields are required.');
-        return;
-    }
-    const formData = {
-        firstName: firstName,
-        lastName: lastName,
-        email: email
-    };
-    formDataArray.push(formData);
-    document.getElementById('registrationForm').reset();
-    console.log(formDataArray);
-}
-document.getElementById('registrationForm').addEventListener('submit', handleSubmit);
-
-
-    </script>
+    <h1>Age Verification</h1>
+    <label for="ageInput">Enter your age:</label>
+    <input type="text" id="ageInput">
+    <button onclick="checkAge()">Submit</button>
 </body>
 </html>
