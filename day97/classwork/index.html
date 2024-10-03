@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>'
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!DOCTYPE html>
+    <html lang="ka">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>რეგისტრაციის ფორმა</title>
+    </head>
+    <body>
+        <h1>რეგისტრაციის ფორმა</h1>
+        <form id="registrationForm">
+            <label for="firstName">სახელი:</label>
+            <input type="text" id="firstName" required><br>
+    
+            <label for="lastName">გვარი:</label>
+            <input type="text" id="lastName" required><br>
+    
+            <label for="email">იმეილი:</label>
+            <input type="email" id="email" required><br>
+    
+            <label for="password">პაროლი:</label>
+            <input type="password" id="password" required><br>
+    
+            <label for="city">საცხოვრებელი ქალაქი:</label>
+            <input type="text" id="city" required><br>
+    
+            <button type="submit">დადასტურება</button>
+        </form>
+    
+        <script src="script.js"></script>
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+    <script src="index.js">
+        const person = {
+    name: 'giorgi',
+    greet: function() {
+        console.log(`my name is ${this.name}`);
+    }
+};
+
+
+person.greet();
+// Object method "this"
+
+
+
+function BigUser() {
+
+this.name = "George";
+
+return { name: "Giorgi" };  
+}
+
+alert( new BigUser().name );
+// consttructor, operator "new"
+
+
+let me = {
+    name: "giorgi",
+    city: "Tbilisi",
+    surname: "gvritishvili",
+    age: "12"
+
+
+};
+//objects
+const user = {
+  name: "Gio"
+};
+
+user.name = "Luka";
+
+alert(user.name);
+//
+
+class User {
+  constructor(name) { this.name = name; }
+  sayHi() { alert(this.name); }
+}
+
+
+// proof: User is a function
+alert(typeof User); 
+
+class Person {
+    constructor(lastname, firstname){
+        firstname.this("johe")
+        lastname.this("doe")
+
+    }
+}
+console.log(Person)
+
+
+    </script>
+</body>
+</html>
