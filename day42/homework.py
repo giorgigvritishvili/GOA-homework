@@ -184,3 +184,9 @@ def collatz(n):
         new_list.append(n)
 >>>>>>> fb0eba0a7454f2dc3b511a76a20cf9f2ec4ee15a
     return new_list
+
+num1 = int(input(enter a number:))
+num2 = int(input(enter a number:))
+
+sum_num = num1 + num2
+print(sum_num)
