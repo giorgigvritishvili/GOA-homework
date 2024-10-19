@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
 }
@@ -33,3 +34,40 @@ button:hover {
     margin-bottom: 10px;
 }
 
+=======
+body {
+    font-family: Arial, sans-serif;
+}
+
+.store, .cart {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.product {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+>>>>>>> e527c5236f3cd9407964202a860dcba7fed54f25

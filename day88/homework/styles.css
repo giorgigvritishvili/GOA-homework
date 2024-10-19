@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: flex;
     justify-content: center;
@@ -31,3 +32,38 @@ img {
     margin: 0 20px;
     transition: opacity 0.5s ease;
 }
+=======
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+img {
+    max-width: 600px;
+    max-height: 400px;
+    margin: 0 20px;
+    transition: opacity 0.5s ease;
+}
+>>>>>>> e527c5236f3cd9407964202a860dcba7fed54f25

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: flex;
     justify-content: center; /* სიგრძის ცენტრში განლაგება */
@@ -52,3 +53,59 @@ input[type="submit"]:hover {
         width: 90%;
     }
 }
+=======
+body {
+    display: flex;
+    justify-content: center; /* სიგრძის ცენტრში განლაგება */
+    align-items: center; /* სიმაღლის ცენტრში განლაგება */
+    height: 100vh; /* მთლიანობის მაქსიმალური სიმაღლე */
+    margin: 0; /* დაშორების აღმოფხვრა */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%; /* მაქსიმალური სიგრძე */
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+>>>>>>> e527c5236f3cd9407964202a860dcba7fed54f25
