@@ -71,9 +71,9 @@ console.log(phones);
 
 
 const students = [
-    { name: 'Alice', grades: [90, 85, 88] },
-    { name: 'Bob', grades: [78, 82, 80] },
-    { name: 'Charlie', grades: [92, 95, 93] }
+    { name: 'gioe', grades: [90, 85, 88] },
+    { name: 'alex', grades: [78, 82, 80] },
+    { name: 'david', grades: [92, 95, 93] }
 ];
 
 studesnts.forEach(students =>{
@@ -83,9 +83,9 @@ studesnts.forEach(students =>{
 })
 
 const patients = [
-    { name: 'John Doe', healthStatus: 'healthy' },
-    { name: 'Jane Smith', healthStatus: 'recovering' },
-    { name: 'Sam Brown', healthStatus: 'critical' }
+    { name: 'luka', healthStatus: 'healthy' },
+    { name: 'gio', healthStatus: 'recovering' },
+    { name: 'sab', healthStatus: 'critical' }
 ];
 
 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" id="movie" placeholder="search">
+        <button id="search">Search</button>
+        <div id="info"></div>
+    </form>
+
+    <script>
+        const form = document.querySelector('form');
+        const main = document.querySelector('main')
+        document.getElementById('search').addEventListener('submit',function() {
+            const title = document.getElementById('movie').value;
+            const APi = "spiderman";
+            const url = ''
+
+            feach(url)
+                .then(response => response.json())
+                .then(data => {
+                    if(data.Response === "True")
+                });
+            
+            
+
+            
+        });
+    </script>
+</body>
+</html>
