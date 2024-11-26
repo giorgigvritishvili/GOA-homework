@@ -11,20 +11,17 @@ const findCommonElements = (set1, set2) => {
 const commonElements = findCommonElements(setA, setB);
 console.log(":", Array.from(commonElements));
 
-//9 დავალება
-const athleteScores = new Map();
 
-// დაამატეთ სპორტსმენები და მათი შედეგები
+const athleteScores = new Map();
 athleteScores.set("giorgi", 23);
 athleteScores.set("luka", 8);
 athleteScores.set("Saba", 23);
 athleteScores.set("Simone Biles", 7);
 
-// წაშლეთ სპორტსმენი
 const athleteToRemove = "Usain Bolt";
 athleteScores.delete(athleteToRemove);
 
-// დაადასტურეთ წაშლა
+
 if (!athleteScores.has(athleteToRemove)) {
     console.log(`${athleteToRemove} has been removed from the list.`);
 } else {
